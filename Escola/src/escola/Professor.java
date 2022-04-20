@@ -6,7 +6,7 @@
 package escola;
 
 
-public class Professor extends Funcionario{
+public abstract class Professor extends Funcionario{
     private double adicional;
     private String titulacao;
     
@@ -33,5 +33,9 @@ public class Professor extends Funcionario{
  
     public void setTitulacao(String titulacao) {
         this.titulacao = titulacao;
+    }
+    @Override
+    public String toString(){
+        return "Professor"
     }
 }

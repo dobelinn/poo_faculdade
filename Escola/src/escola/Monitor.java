@@ -31,5 +31,7 @@ public class Monitor extends Funcionario{
     public void setTurno(String turno) {
         this.turno = turno;
     }
+
+    // GERAR O toString automatico aqui
     
 }
