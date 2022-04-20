@@ -48,6 +48,7 @@ public class Escola {
         System.out.println("Adicional do professor: "+profHorista.getAdicional());
 
         System.out.println(profIntegral);
+        //OLA VINICIUS 
         System.out.println(profHorista);
         
     }
